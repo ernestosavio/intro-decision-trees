@@ -12,8 +12,8 @@ def paralelas(d: int, C: float, n: int):
     center0 = [0 for i in range(d)]
     center1 = [0 for i in range(d)]
 
-    center1[0] = 1
-    center1[0] = -1
+    center0[0] = 1
+    center1[1] = -1
 
     datos0 = np.random.normal(center0, C, (n//2, d)) 
     datos1 = np.random.normal(center1, C, (n//2, d)) 
